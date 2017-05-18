@@ -62,7 +62,6 @@ my $subcount = 0;			# To get the total number of rows written in the particular 
 foreach my $record (@records){
 	$row++;
 	$col = 0;
-	my $col = 0;
 	
 	# Writing columns in each row
 	foreach my $data (@{$record}){
