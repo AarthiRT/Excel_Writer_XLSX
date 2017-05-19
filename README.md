@@ -10,10 +10,10 @@
 	http://search.cpan.org/~jmcnamara/Excel-Writer-XLSX/lib/Excel/Writer/XLSX.pm
     
 # Installation of Excel-Writer-XLSX module
-    1. Download Excel-Writer-XLSX-0.95.tar.gz from http://search.cpan.org/~jmcnamara/Excel-Writer-XLSX/lib/
-       Excel/Writer/XLSX.pm.
+    1. Download Excel-Writer-XLSX-0.95.tar.gz from http://search.cpan.org/~jmcnamara/Excel-Writer-XLSX/lib/Excel/
+       Writer/XLSX.pm
         
-    2. Place the Unzipped&untaredperlExcel module in lib folder of the Perl installed directory 
+    2. Place the Unzipped & untaredperl Excel module in lib folder of the Perl installed directory 
        (i.e., \\<perl_Installed_ directory>\Perl\lib). After placing the file the folder structure will be as 
        \\<perl_Installed_directory>\Perl\lib\Excel\Writer\..  
     
@@ -39,6 +39,7 @@
     To write large amount of data in XLSX and to handle large data and to reduce memory usage set_optimization() 
     method is used.
              $workbook->set_optimization();
+	     
     This optimization turned on a row of data is written and then discarded when a cell in a new row is added via 
     one of the Worksheet write_*() methods. As such data should be written in sequential row order once the 
     optimization is turned on.
